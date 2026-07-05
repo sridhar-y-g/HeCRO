@@ -1,0 +1,14 @@
+{
+  "name": "helium-cro-engine",
+  "version": "1.0.0",
+  "description": "Helium Shopify CRO Opportunity Engine",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --env-file=.env server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql2": "^3.22.5"
+  }
+}

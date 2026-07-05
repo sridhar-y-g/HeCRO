@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Helium — Shopify CRO Opportunity Engine</title>
+  <!-- Google Fonts for Plus Jakarta Sans and DM Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <!-- Sticky Navigation Bar -->
+  <nav class="app-nav">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <div class="logo-well-sm">He</div>
+        <span class="logo-text font-display">Helium</span>
+      </a>
+      <div class="nav-links">
+        <a href="#how-it-works" class="nav-link">How It Works</a>
+        <a href="#auditor-section" class="nav-link">CRO Auditor</a>
+        <a href="#history-section" class="nav-link">Recent Logs</a>
+      </div>
+      <a href="#auditor-section" class="btn btn-nav">
+        <span>Launch Engine</span>
+      </a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section">
+    <div class="hero-container">
+      <div class="hero-content">
+        <span class="hero-badge font-display">LLM-POWERED E-COMMERCE CONSULTANT</span>
+        <h1 class="hero-title font-display">Optimize Your Shopify Store With <span class="highlight-text">Live Site Evidence</span></h1>
+        <p class="hero-subtitle">
+          Helium reads your actual landing pages, pinpoints layout flaws, ranks them by impact vs difficulty using ICE scoring, and drafts implementation blueprints. No generic checklists. Just data.
+        </p>
+        <div class="hero-actions">
+          <a href="#auditor-section" class="btn btn-primary">
+            <span>Audit Your Store</span>
+          </a>
+          <a href="#how-it-works" class="btn btn-secondary">
+            <span>See How it Works</span>
+          </a>
+        </div>
+      </div>
+      
+      <!-- Interactive Hero Graphic -->
+      <div class="hero-visual">
+        <div class="visual-outer-ring">
+          <div class="visual-middle-ring">
+            <div class="visual-inner-well">
+              <span class="visual-center-text font-display">CRO</span>
+            </div>
+            <div class="visual-orbit-dot dot-1"></div>
+            <div class="visual-orbit-dot dot-2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section id="how-it-works" class="how-it-works-section">
+    <div class="section-header-center">
+      <span class="section-badge font-display">UNDER THE HOOD</span>
+      <h2 class="section-title-center font-display">The Helium Engine Architecture</h2>
+      <p class="section-subtitle-center">Three working functions working sequentially to convert messy website text into structured strategy.</p>
+    </div>
+
+    <div class="features-grid">
+      <!-- Function 1 Card -->
+      <div class="neumorphic-card feature-card">
+        <div class="feature-icon-well">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="feature-icon"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+        </div>
+        <span class="feature-step font-display">FUNCTION 1</span>
+        <h3 class="feature-title font-display">The Jina Reader</h3>
+        <p class="feature-text">
+          Directs the Jina Reader API to scrape the website link, stripping HTML clutter, ads, and scripts to fetch a clean raw markdown file of the site.
+        </p>
+      </div>
+
+      <!-- Function 2 Card -->
+      <div class="neumorphic-card feature-card">
+        <div class="feature-icon-well">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="feature-icon"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+        </div>
+        <span class="feature-step font-display">FUNCTION 2</span>
+        <h3 class="feature-title font-display">AI Processing</h3>
+        <p class="feature-text">
+          Bundles the text into an analytical prompt and calls Gemini 2.5 Flash, instructing the AI to output exactly 3 conversion bottlenecks strictly in JSON format.
+        </p>
+      </div>
+
+      <!-- Function 3 Card -->
+      <div class="neumorphic-card feature-card">
+        <div class="feature-icon-well">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="feature-icon"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+        </div>
+        <span class="feature-step font-display">FUNCTION 3</span>
+        <h3 class="feature-title font-display">The Handler Route</h3>
+        <p class="feature-text">
+          Cleans the data, performs schema validation, logs the transaction in the activity history database, and routes structured visuals back to your screen.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Container for the Tool -->
+  <main class="container" id="auditor-section">
+    
+    <!-- Step 1: Input Screen -->
+    <section id="input-section" class="neumorphic-card main-card">
+      <div class="card-header">
+        <h2 class="section-title font-display">Launch Live Site Audit</h2>
+        <p class="section-desc">Pinch competitor URLs to search for gaps in catalogs, PDP layout, or checkout flows.</p>
+      </div>
+
+      <form id="audit-form" class="form-grid">
+        <!-- URL Input -->
+        <div class="input-group">
+          <label for="store-url" class="input-label">Shopify Store URL</label>
+          <div class="input-well">
+            <input type="url" id="store-url" placeholder="https://www.beardo.in" required>
+          </div>
+        </div>
+
+        <!-- Competitor URL Input -->
+        <div class="input-group">
+          <label for="competitor-url" class="input-label">Competitor URL <span class="muted-label">(Optional)</span></label>
+          <div class="input-well">
+            <input type="url" id="competitor-url" placeholder="https://www.ustraa.com">
+          </div>
+        </div>
+
+        <!-- Scrape Fallback Box (hidden by default, shown if block occurs) -->
+        <div id="manual-fallback-well" class="input-group hidden animate-fade-in">
+          <div class="alert-box warning-alert">
+            <p><strong>Scrape Blocked:</strong> We couldn't fetch the website content automatically. Please copy and paste the store's homepage text or product descriptions below to continue.</p>
+          </div>
+          <label for="manual-text" class="input-label">Store Content / Paste Page Text</label>
+          <div class="input-well text-well">
+            <textarea id="manual-text" rows="6" placeholder="Paste copy from landing page, product titles, descriptions, pricing info, or checkout buttons here..."></textarea>
+          </div>
+        </div>
+
+        <!-- Action CTA -->
+        <div class="form-actions">
+          <button type="submit" id="submit-btn" class="btn btn-primary">
+            <span class="btn-text">Generate CRO Audit</span>
+            <div class="btn-shadow-effect"></div>
+          </button>
+          
+          <button type="button" id="toggle-manual-btn" class="btn btn-secondary">
+            <span>Paste Text Manually</span>
+          </button>
+        </div>
+      </form>
+    </section>
+
+    <!-- Loading State Screen (hidden by default) -->
+    <section id="loading-section" class="neumorphic-card hidden">
+      <div class="loading-container">
+        <!-- Neumorphic Concentric Loading Circles -->
+        <div class="loader-well">
+          <div class="loader-circle circle-1">
+            <div class="loader-circle circle-2">
+              <div class="loader-circle circle-3">
+                <div class="loader-dot"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2 class="loading-title font-display">Analyzing Shopify Store...</h2>
+        
+        <!-- Live Progress Log -->
+        <div class="progress-log-well">
+          <div class="progress-step active" id="step-gather">
+            <div class="step-indicator"></div>
+            <span>Function 1: Gathering live website text from Shopify brand...</span>
+          </div>
+          <div class="progress-step" id="step-ai">
+            <div class="step-indicator"></div>
+            <span>Function 2: Processing page text & running GEMINI AI audit...</span>
+          </div>
+          <div class="progress-step" id="step-route">
+            <div class="step-indicator"></div>
+            <span>Function 3: Structuring priorities and saving activity...</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Step 3: Result Dashboard (hidden by default) -->
+    <section id="results-section" class="hidden">
+      
+      <!-- Brand Score & Overview Card -->
+      <div class="results-header-grid">
+        <!-- Grade Card -->
+        <div class="neumorphic-card grade-card">
+          <span class="grade-label">CONVERSION GRADE</span>
+          <div class="grade-badge-well">
+            <span id="grade-value" class="font-display">B</span>
+          </div>
+        </div>
+
+        <!-- Summary Info Card -->
+        <div class="neumorphic-card summary-card">
+          <h2 class="brand-title font-display" id="result-brand-name">Beardo</h2>
+          <p class="brand-url" id="result-brand-url">https://www.beardo.in</p>
+          <div class="divider-well"></div>
+          <p class="summary-text" id="result-summary">
+            The store has high traffic but faces critical drop-offs due to a hidden add to cart button on mobile and high cart abandonment.
+          </p>
+        </div>
+      </div>
+
+      <!-- Opportunity Priorities Table -->
+      <div class="neumorphic-card table-card">
+        <h3 class="card-title font-display">Prioritization Matrix (ICE)</h3>
+        <div class="table-container-well">
+          <table class="cro-table">
+            <thead>
+              <tr>
+                <th class="col-priority">Priority</th>
+                <th class="col-area">Targeted Area</th>
+                <th class="col-wrong">What is Wrong (Evidence)</th>
+                <th class="col-fix">Recommended Fix</th>
+                <th class="col-ice">ICE Score</th>
+                <th class="col-action">Action</th>
+              </tr>
+            </thead>
+            <tbody id="cro-table-body">
+              <!-- Dynamically populated -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Detailed Breakdown Cards -->
+      <h3 class="cards-header font-display">Detailed Audit Breakdown & Competitor Comparison</h3>
+      <div class="opportunities-list" id="opportunities-cards-container">
+        <!-- Dynamically populated -->
+      </div>
+    </section>
+
+    <!-- Recent Activities Log (Audits History) -->
+    <section id="history-section" class="neumorphic-card history-card">
+      <h3 class="section-title font-display">Recent Audit Logs</h3>
+      <p class="section-desc">Quickly reload or review past Shopify store audit reports stored in the database.</p>
+      
+      <div class="history-list" id="history-list-container">
+        <!-- Dynamically loaded -->
+        <div class="empty-history">No past activities logged. Run your first audit to populate the database!</div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Step 4: A/B Experiment Brief Modal -->
+  <div id="brief-modal" class="modal-overlay hidden">
+    <div class="modal-content neumorphic-card">
+      <div class="modal-header">
+        <div class="modal-title-container">
+          <span class="modal-badge">EXPERIMENT BLUEPRINT</span>
+          <h2 id="modal-brief-title" class="modal-title font-display">A/B Test Brief: Sticky Add to Cart</h2>
+        </div>
+        <button id="close-modal-btn" class="btn btn-close" aria-label="Close Modal">
+          <span>&times;</span>
+        </button>
+      </div>
+
+      <div class="modal-body">
+        
+        <!-- Hypothesis Well -->
+        <div class="brief-well hypothesis-well">
+          <h4 class="well-title font-display">Core Hypothesis</h4>
+          <p id="modal-hypothesis" class="well-content">If we implement a sticky mobile buy button, then checkout initialization rates will increase by 12% because mobile users will face zero friction when deciding to purchase.</p>
+        </div>
+
+        <div class="brief-split-well">
+          <!-- Control (A) -->
+          <div class="brief-well control-well">
+            <h4 class="well-title font-display">Control Layout (A)</h4>
+            <p id="modal-control" class="well-content">Current page structure where the user must scroll past descriptions to find the button.</p>
+          </div>
+
+          <!-- Variant (B) -->
+          <div class="brief-well variant-well">
+            <h4 class="well-title font-display">Variant Layout (B)</h4>
+            <p id="modal-variant" class="well-content">A permanent, low-profile button fixed to the bottom of the viewport on mobile devices.</p>
+          </div>
+        </div>
+
+        <div class="brief-metrics-well">
+          <!-- Primary Metric -->
+          <div class="brief-well metric-well">
+            <h4 class="well-title font-display">Primary Metric to Track</h4>
+            <div class="metric-badge-container">
+              <code id="modal-metric">click_add_to_cart_total</code>
+            </div>
+          </div>
+
+          <!-- Est. Dev Time -->
+          <div class="brief-well dev-well">
+            <h4 class="well-title font-display">Est. Dev Time</h4>
+            <p id="modal-dev-time" class="well-content">2 hours</p>
+          </div>
+        </div>
+
+      </div>
+      
+      <div class="modal-footer">
+        <button id="copy-brief-btn" class="btn btn-primary">
+          <span>Copy Brief Specs</span>
+        </button>
+        <button id="close-modal-footer-btn" class="btn btn-secondary">
+          <span>Close Blueprint</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="app-footer">
+    <p>Powered by <strong>Helium Engine</strong> & Gemini 2.5 Flash</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
